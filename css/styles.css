@@ -1,0 +1,436 @@
+.body{
+
+    background:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),url(../img/car.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+.btn_inscription , .btn_connexion{
+
+	background-color: #005e9e ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.btn_connexion{
+    margin-top: 2px;
+}
+
+
+.btn1{
+    background-color: #005e9e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 2px;
+
+
+}
+
+.btn2{
+     background-color: #005e9e;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+
+.link{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+#section1{
+   float: right;
+
+}
+
+
+#section2{
+   display: flex;
+  justify-content: center;
+  margin-top: 200px;
+
+
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color:#000000;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.title_booking{
+    display: flex;
+    justify-content: center;
+    color:#000000;
+   
+    width: 100%;   
+}
+
+
+
+/* -------------------- CALENDAR -------------------- */
+
+
+
+.calendar{
+    width: 100%;
+    height: calc(100vh - 128px);
+}
+
+.calendar td {
+    padding: 10px;
+    border: 1px solid black;
+    vertical-align: top;
+    width: 14.29%;
+}
+
+.calendar6weeks{
+    height: 16.66%;
+}
+
+
+
+
+
+
+
+
+
+.body_inscription{
+     height: 100%;
+    background:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),url(../img/car.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+img{
+    width: 10%;
+}
+
+
+h1.title { 
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400; 
+    text-align: center;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+
+.main-login{
+    background-color: #005e9e;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button {
+    margin-top: 5px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+
+    .form-control {
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 94%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input-group {
+    display: table;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.CO{
+    color: black;
+}
+
+#condition{
+    font-size: 12px;
+    color:white;
+    font-family: 'Montserrat';
+}
+
+
+
+
+/* ---------------------- CONNEXION -------------------------*/
+
+
+
+.body_connexion{
+     height: 100%;
+    background:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),url(../img/car.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+    
+}
+img{
+    width: 10%;
+}
+
+
+h1.title { 
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400; 
+    text-align: center;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+
+.main-login{
+    background-color: #005e9e;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button {
+    margin-top: 5px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+}
+
+.login-button:hover{
+    background-color: #81a9da;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.login-register{
+    text-align: center;
+
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+
+    .form-control {
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 94%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input-group {
+    display: table;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.CO{
+    color: black;
+}
+
+/*-------------------- VEHICLE ------------------------*/
+
+
+
+.body_vehicle{
+   background:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),url(../img/car.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+
+
+.select{
+   height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+/* ------------------------- CALENDAR -------------- */
+
+
+
+
+.year{  color: #005e9e;  font-size:85px;}
+.relative{  position:relative;}
+
+.month{  margin-top:12px;}
+.months ul{  list-style:none;  margin:0px;  padding:0px;}
+.months ul li a{  float:left;  margin:-1px;  padding:0px 15px 0px 0px;  color:#888888;  text-decoration:none;  font-size:35px;  font-weight:bold;  text-transform:uppercase;}
+.months ul li a:hover, .months ul li a.active{  color:#005e9e;}
+table{  border-collapse:collapse;}
+table td{  border:1px solid #A3A3A3;  width:80px;  height:80px;}
+table td.today{  background-color: #81a9da;  width:80px;  height:80px;}
+table td.padding{  border:none;}
+table td:hover{  background:#DFDFDF;  cursor:pointer;}
+table th{  font-weight:normal;  color:#A8A8A8;}
+table td .day{  position:absolute;  color:#8C8C8C;  bottom:-40px;  right:5px;  font-weight:bold;  font-size:24.3pt;}
+table td .events{  position:relative;  width:79px;  height:0px;  margin:-39px 0px 0px;  padding:0px;}
+table td .events li{  width:10px;  height:10px;  float:left;  background:#000;  /*+border-radius:10px;*/  -moz-border-radius:10px;  -webkit-border-radius:10px;  -khtml-border-radius:10px;  border-radius:10px 10px 10px 10px;  margin-left:6px;  overflow:hidden;  text-indent:-3000px;}
+table td:hover .events{  position:absolute;  left:582px;  top:66px;  width:442px;  list-style:none;  margin:0px;  padding:11px 0px 0px;}
+table td:hover .events li{  height:50px;  line-height:20px;  font-weight:bold;  border-bottom:1px solid #D6D6D6;  padding-left:41px;  text-indent:0;  background:none;  width:500px;}
+table td:hover .events li:first-child{  border-top:1px solid #D6D6D6;}
+table td .daytitle{  display:none;}
+table td:hover .daytitle{  position:absolute;  left:582px;  top:21px;  width:442px;  list-style:none;  margin:0px 0px 0px 16px;  padding:0px;  color: #005e9e ;  font-size:41px;  display:block;  font-weight:bold;}
+.clear{  clear:both;}
